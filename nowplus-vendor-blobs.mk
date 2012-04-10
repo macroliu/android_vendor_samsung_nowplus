@@ -55,11 +55,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/nowplus/proprietary/dsp/lib/libOMX.ITTIAM.AAC.decode.so:system/lib/libOMX.ITTIAM.AAC.decode.so \
     vendor/samsung/nowplus/proprietary/dsp/lib/libOMX.ITTIAM.AAC.encode.so:system/lib/libOMX.ITTIAM.AAC.encode.so \
     vendor/samsung/nowplus/proprietary/dsp/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
-    vendor/samsung/nowplus/proprietary/dsp/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so
+    vendor/samsung/nowplus/proprietary/dsp/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
+    vendor/samsung/nowplus/proprietary/dsp/lib/libOMX.TI.Video.encoder.so:system/lib/libOMX.TI.Video.encoder.so
 
 # dsp images
 PRODUCT_COPY_FILES += \
     vendor/samsung/nowplus/proprietary/dsp/img/720p_mp4vdec_sn.dll64P:system/lib/dsp/720p_mp4vdec_sn.dll64P \
+    vendor/samsung/nowplus/proprietary/dsp/img/720p_h264vdec_sn.dll64P:system/lib/dsp/720p_h264vdec_sn.dll64P \
     vendor/samsung/nowplus/proprietary/dsp/img/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
     vendor/samsung/nowplus/proprietary/dsp/img/baseimage.dof:system/lib/dsp/baseimage.dof \
     vendor/samsung/nowplus/proprietary/dsp/img/baseimage.map:system/lib/dsp/baseimage.map \
